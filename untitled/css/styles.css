@@ -1,0 +1,76 @@
+body {
+    background: url('../img/dark-souls-3.jpg');
+    margin: 0;
+}
+
+header,
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url('../img/castle-stone.jpg');
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: rgba(255, 153, 51, .8);
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: rgba(255, 153, 51, .8);
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #dadada;
+    line-height: 1.2;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    list-style: none;
+    background-color: #000000;
+}
+
+a {
+    color: rgba(255, 153, 51, .8);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #dadada;
+}
+
+.content-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgba(5, 5, 5, .7);
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text-container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.created-by {
+    padding: 20px;
+    background-color: rgba(150, 150, 150, .6);
+    font-weight: 600;
+}
